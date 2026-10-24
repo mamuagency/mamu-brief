@@ -1,0 +1,20 @@
+{
+  "version": "7",
+  "dialect": "postgresql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "7",
+      "when": 1792818677610,
+      "tag": "0000_create_brief_submissions",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1792818694306,
+      "tag": "0001_tighten_brief_references_read",
+      "breakpoints": true
+    }
+  ]
+}

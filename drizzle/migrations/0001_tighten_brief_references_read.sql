@@ -1,0 +1,1 @@
+DROP POLICY "anyone can view brief reference images" ON storage.objects;
