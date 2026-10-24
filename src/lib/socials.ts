@@ -8,6 +8,7 @@
 export const SOCIAL_LINKS: string[] = [
   "https://www.facebook.com/MAMUAgency",
   "https://www.instagram.com/mamuagency/",
+  "https://www.behance.net/ElMahmooud",
   "https://www.linkedin.com/in/mamuagency/",
   "https://x.com/MAMUAgency",
   "https://www.tiktok.com/@mamu.agency",
@@ -39,6 +40,15 @@ const PLATFORMS: Platform[] = [
       "M17.5 6.5h.01",
     ],
   },
+  {
+    name: "Behance",
+    color: "#0054FF",
+    match: ["behance.net"],
+    paths: [
+      "M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5z",
+      "M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z",
+      "M17.5 6.5h.01",
+    ],
   {
     name: "LinkedIn",
     color: "#0A66C2",
