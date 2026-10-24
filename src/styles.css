@@ -299,9 +299,9 @@
 /* اهتزاز بطيء ومستمر (سلو موشن) */
 @keyframes social-shake {
   0%, 100% { transform: translateY(0) rotate(0deg); }
-  25%      { transform: translateY(-2px) rotate(-4deg); }
-  50%      { transform: translateY(0) rotate(0deg); }
-  75%      { transform: translateY(-2px) rotate(4deg); }
+  35%      { transform: translateY(-2px) rotate(-4deg); }
+  60%      { transform: translateY(0) rotate(0deg); }
+  80%      { transform: translateY(-2px) rotate(4deg); }
 }
 @utility animate-social-shake {
   animation: social-shake 4.5s ease-in-out infinite;
