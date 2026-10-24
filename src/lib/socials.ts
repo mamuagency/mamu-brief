@@ -128,7 +128,7 @@ export function resolveSocial(input: string): ResolvedSocial | null {
   const href = input.trim();
   if (!href) return null;
   // إيميل مكتوب عادي (بدون mailto:) يتعرف عليه تلقائيًا
-  if (/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(href)) {
+  if (/^[^\s@/:]+@[^\s@/:]+\.[^\s@/:]+$/.test(href)) {
     return { ...MAIL, href: `mailto:${href}` };
   }
 
