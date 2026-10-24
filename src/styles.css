@@ -314,7 +314,7 @@
   لأن --foreground بيتغير لوحده مع كلاس .dark
 */
 .social-link {
-  color: color-mix(in oklab, var(--foreground) 45%, transparent);
+  color: color-mix(in oklab, var(--foreground) 75%, transparent);
   transition: color 0.25s ease, border-color 0.25s ease,
     background-color 0.25s ease, transform 0.3s ease;
 }
